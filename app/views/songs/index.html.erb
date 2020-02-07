@@ -1,0 +1,4 @@
+<h1> All the SONGS! </h1>
+<% @songs.each do |song| %>
+	<p> <%= song.title | song.release_year | song.artist_name %> </p>
+<% end %>
